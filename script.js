@@ -6,7 +6,7 @@ const predictionText = document.getElementById("prediction-text");
 const API_URL =
   location.hostname === "localhost" || location.hostname === "127.0.0.1"
     ? "http://127.0.0.1:8000/predict"
-    : "https://mall-customer-api-1.onrender.com/predict";
+    : "https://mall-customer-tree-api.onrender.com/predict";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
